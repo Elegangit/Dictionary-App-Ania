@@ -1,0 +1,20 @@
+.PhoneticsAudio {
+  display: inline;
+  margin: 0 auto;
+  color: magenta;
+}
+
+.PhoneticsAudio button {
+  background-color: rgb(8, 138, 131);
+  border-radius: 50%;
+  border: 1px solid rgb(14, 12, 12);
+  color: blue;
+  padding: 0px 5px;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.PhoneticsAudio button:hover {
+  background-color: rgb(38, 103, 119);
+  color: rgb(22, 98, 117);
+}

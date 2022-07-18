@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(
+    109.6deg,
+    rgb(255, 251, 213) 11.2%,
+    rgb(178, 10, 44) 91.2%
+  );
+}
+
+.App {
+  max-width: 999px;
+  margin: 0 auto;
+}
+
+.App a {
+  color: black;
+}
+
+.App-header {
+  margin: 30px 0;
+}
+
+.App-header h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 2;
+}
+
+.App-logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.App-footer {
+  text-align: center;
+  margin: 30px 0;
+  color: black;
+}
+.logo {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 400px;
+  height: 300px;
+  justify-content: center;
+  text-align: center;
+  position: center;
+}
