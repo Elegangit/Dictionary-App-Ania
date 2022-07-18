@@ -1,0 +1,42 @@
+.Dictionary h1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: black;
+}
+
+.Dictionary section {
+  background-color: peachpuff;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.Dictionary input {
+  width: 100%;
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: magenta;
+  border: 1px solid peachpuff;
+}
+
+.Dictionary hint {
+  font-size: 12px;
+  margin-top: 5px;
+  color: magenta;
+}
+
+.definition {
+  font-size: 12px;
+  margin-top: 5px;
+  color: purple;
+}
+
+.container {
+  width: 100%;
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: pink;
+  border: 1px solid peachpuff;
+}

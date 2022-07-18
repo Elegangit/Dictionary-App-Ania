@@ -1,0 +1,19 @@
+.Meaning h3 {
+  font-size: 25px;
+  line-height: 1;
+  font-weight: bold;
+  color: black;
+}
+
+.Meaning.example {
+  font-size: 25px;
+  opacity: 1;
+  font-style: italic;
+  margin-top: 10px;
+  color: black;
+}
+
+.Meaning .wordInfo {
+  margin-bottom: 20px;
+  color: black;
+}
