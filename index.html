@@ -490,7 +490,8 @@ code {
       height: 36px;
       z-index: 9999999999999;
     " src="./index_files/saved_resource.html"></iframe>
-    <script> 
+
+<script> 
     function App() {
   return (
     <div className="App">
@@ -669,6 +670,7 @@ function PhoneticsAudio(props) {
     </div>
   );
 }
+
 function Photos(props) {
   if (props.photos) {
     console.log(props.photos);
@@ -695,6 +697,7 @@ function Photos(props) {
     return null;
   }
 }
+
 function Results(props) {
   if (props.results) {
     console.log(props.results.phonetics);
@@ -759,6 +762,9 @@ const reportWebVitals = (onPerfEntry) => {
 // expect(element).toHaveTextContent(/react/i)
 // learn more: https://github.com/testing-library/jest-dom
 import "@testing-library/jest-dom";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
-    </script>
-  </body></html>
+</script>
+  </body>
+  </html>
