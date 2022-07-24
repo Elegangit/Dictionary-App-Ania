@@ -4,7 +4,6 @@ import Results from "./Results";
 import "./Dictionary.css";
 import "./Dictionary.js";
 import Photos from "./Photos";
-import Synonyms from "./Synonyms";
 
 export default function Dictionary(props) {
   let [keyword, setKeyword] = useState(props.defaultKeyword);

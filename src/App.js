@@ -11,9 +11,12 @@ function App() {
         <header className="App-header">
           <Dictionary defaultKeyword="water" />
         </header>
-        <footer className="App-footer">
-          <img src="shecodes-wallpaper.jpg" alt="SheCodes" class="App logo" />
-        </footer>
+        <footer className="App-footer"></footer>
+        <img
+          src="shecodes-wallpaper.jpg"
+          alt="SheCodes"
+          className="App logo"
+        ></img>
       </div>
     </div>
   );
